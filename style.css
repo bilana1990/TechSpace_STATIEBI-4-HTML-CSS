@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+20&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+
+  font-family: "Jersey 20", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  height: 100vh;
+
+  background-color: rgb(183, 177, 177);
+}
+h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+ul li img {
+  width: 100px;
+  height: 100px;
+}
+ul li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+ul li a {
+  margin-left: 20px;
+  color: black;
+}
+ul li a:hover {
+  color: red;
+  transition: 0.2s;
+}
+ul {
+  margin-top: 100px;
+  margin-left: 300px;
+}
+.kvara_img {
+  width: 500px;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+p {
+  position: absolute;
+  left: 45%;
+  top: 250px;
+  text-align: center;
+  width: 700px;
+}
+.main_page {
+  font-size: 50px;
+  margin-top: 50px;
+  margin-left: 100px;
+  color: blue;
+}
+.main_page:hover {
+  color: red;
+  transition: 0.2s;
+}
